@@ -8,8 +8,8 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-        /*setContentView(R.layout.note_layout)
+        //setContentView(R.layout.activity_main)
+        setContentView(R.layout.note_layout)
 
         val editText = findViewById<EditText>(R.id.editText)
         editText.setText("The OK button is now constrained vertically, to remain lined up with the baseline of the Cancel button. A baseline constraint like this is different to constraining the top or bottom of the button. In this case, it's the text that lines up - so if the buttons are different heights, the layout looks better, because the text is aligned.\n" +
@@ -22,8 +22,6 @@ class MainActivity : AppCompatActivity() {
                 "\n" +
                 "Whether I'd constrained the top, bottom or baseline, that would still be the case, the OK button can't be moved vertically because it's constrained to the Cancel button, and when the Cancel button moves vertically the OK button follows.\n" +
                 "\n" +
-                "Notice that when the OK button's selected, the Inspector shows a downwards arrow to indicate that there is a constraint, but you can't change the margin value like you can with the constraint to the right. Baseline constraints don't have margins.")*/
-        // comment for new branch named dev
-
+                "Notice that when the OK button's selected, the Inspector shows a downwards arrow to indicate that there is a constraint, but you can't change the margin value like you can with the constraint to the right. Baseline constraints don't have margins.")
     }
 }
